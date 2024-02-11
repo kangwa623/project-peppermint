@@ -1,0 +1,78 @@
+<!--file: gallery.html -->
+
+{% extends 'base.html' %}
+
+{% include 'header.html' %}
+
+{% block body %}
+  <!-- Gallery Section -->
+  <section id="portfolio" class="portfolio section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2>Chapter Gallery Archive</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-center bg-white pd-2">
+            <div class="card-body text-dark">
+              <h3 class="card-title">2022/2023 Academic Year</h3>
+              <br />
+              <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <button class="btn btn-success">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pd-2">
+              <div class="card-body text-dark">
+                <h3 class="card-title">2022/2023 Academic Year</h3>
+                <br />
+                <p class="lead">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </p>
+                <button class="btn btn-success">Learn More</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pd-2">
+              <div class="card-body text-dark">
+                <h3 class="card-title">2022/2023 Academic Year</h3>
+                <br />
+                <p class="lead">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </p>
+                <button class="btn btn-success">Learn More</button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+    
+
+
+  {% include 'gallery-1.html' %}
+
+  {% include 'gallery-2.html' %}
+
+  {% include 'gallery-3.html' %}
+
+  {% include 'partners.html' %}
+
+  {% include 'footer.html' %}      
+
+{% endblock %}
