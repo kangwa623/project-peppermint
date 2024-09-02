@@ -1,11 +1,12 @@
-<!-- file: portfolio.html -->
+<!-- file: sections.html -->
 
-{% extends 'preface.html' %}
+{% extends 'base.html' %}
 
 {% block body %}
+  {% include 'header.html' %}
 
     <!-- Portfolio Section -->
-<section id="portfolio" class="portfolio section-padding">
+<section id="sections" class="portfolio section-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -57,7 +58,7 @@
               <div class="img-area mb-4">
                 <img src="../static/images/sections/material-section-2.png" alt="" class="img-fluid" />
               </div>
-              <h3 class="card-title">Chemical, Metallurgical and Material Engineering Section</h3>
+              <h3 class="card-title">Chemical, Metallurgical and Minerals Engineering Section</h3>
               <br />
               <p class="lead">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -68,6 +69,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="col-12 col-md-12 col-lg-4">
           <div class="card text-center bg-white pd-2">
@@ -117,39 +119,109 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-12 col-lg-4">
-          <div class="card text-center bg-white pd-2">
-            <div class="card-body text-dark">
-              <div class="img-area mb-4">
-                <img src="../static/images/sections/#.png" alt="" class="img-fluid" />
+        
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pd-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="../static/images/sections/civil-section.png" alt="" class="img-fluid" />
+                </div>
+                <h3 class="card-title">Civil and Structural Engineering Section</h3>
+                <br />
+                <p class="lead">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+                </p>
               </div>
-              <h3 class="card-title">Civil and Structural Engineering Section</h3>
-              <br />
-              <p class="lead">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
-              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pd-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="../static/images/sections/mining-section.jpg" alt="" class="img-fluid" />
+                </div>
+                <h3 class="card-title">Mining Engineering Section</h3>
+                <br />
+                <p class="lead">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pd-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="../static/images/sections/environmental-section.jpg" alt="" class="img-fluid" />
+                </div>
+                <h3 class="card-title">Environmental Engineering Section</h3>
+                <br />
+                <p class="lead">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-12 col-lg-4">
-          <div class="card text-center bg-white pd-2">
-            <div class="card-body text-dark">
-              <div class="img-area mb-4">
-                <img src="../static/images/sections/#.png" alt="" class="img-fluid" />
+
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pd-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="../static/images/sections/geotech-section-1.png" alt="" class="img-fluid" />
+                </div>
+                <h3 class="card-title">Geotechnical Section</h3>
+                <br />
+                <p class="lead">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+                </p>
               </div>
-              <h3 class="card-title">Mining/Mineral and Energy Engineering Section</h3>
-              <br />
-              <p class="lead">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
-              </p>
             </div>
           </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pd-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="../static/images/sections/energy-section.png" alt="" class="img-fluid" />
+                </div>
+                <h3 class="card-title">Energy Auditor Section</h3>
+                <br />
+                <p class="lead">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pd-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="../static/images/sections/crafts.png" alt="" class="img-fluid" />
+                </div>
+                <h3 class="card-title">Craftspersons and Technicians Section (CTS)</h3>
+                <br />
+                <p class="lead">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+                </p>
+              </div>
+            </div>
         </div>
       </div>
+
     </div>
   </section>
 

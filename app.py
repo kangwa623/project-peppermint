@@ -17,10 +17,14 @@ def Index():
 def Gallery():
     return render_template("gallery.html")
 
-@app.route("/echo")
-def Echo():
-    return render_template("echo.html")
+@app.route("/publications")
+def Publications():
+    return render_template("publications.html")
 
+@app.route("/sections")
+def Sections():
+    return render_template("sections.html")
+    
 
 
 
