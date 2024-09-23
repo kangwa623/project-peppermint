@@ -29,4 +29,6 @@ def Sections():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
+
+# Removed "app.run(debug=True)" for the sake of hosting the app on render.
